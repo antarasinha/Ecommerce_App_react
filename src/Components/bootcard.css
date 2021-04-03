@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(243, 241, 239);
+}
+
+.card{
+    background-color: white;
+    width:19rem;
+    display:inline-flex;
+    margin-left: 8%;
+    box-shadow:grey 1px 1px 1px 1px;
+}
+
+.card-img-top{
+    width: 18rem;
+    height: 12rem;
+    margin: 2%;
+    display: inline-flex;
+}
+.cardrow{
+    margin-left: 1%;
+    margin-top: 5%;
+}
+.card-img-top:hover{
+    transition-duration:1s;
+    transform: scale(1.01);
+}
+.unchecked {
+    color:gainsboro;
+  }
+
+  .cartbtn{
+      width: 6rem;
+      margin-left: 32%;
+      font-size: 13px;
+      box-shadow:darkslategray 1px 1px 1px 1px ;
+  }
+
+  .linkcollection{
+      background-color: white;
+      width: 90vw;
+      margin-top: 4%;
+      margin-left: 6%;
+      margin-right: 6%;
+      border-radius: 8px;
+  }
+  .cardlink{
+     align-items: center;
+     align-content: center;
+  }
+  .btncol{
+    font-size: 18px;
+    margin-left: 35%;
+  }
